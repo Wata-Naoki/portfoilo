@@ -20,7 +20,7 @@ function utcToJSTime(utcTime) {
 
 function ajaxRequest(lat, long) {
     const url = 'https://api.openweathermap.org/data/2.5/forecast';
-    const appId = '89d4fa08ca7b9e7e7c499742baa515c1';
+    const appId = 'apiキーが入ります';
 
 
     $.ajax({
