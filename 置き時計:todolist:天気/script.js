@@ -102,6 +102,8 @@ if (lang === "ja") {
       "December",
     ][nowMon];
 
+
+    
     let nowDat = nowTime.getDate();
     let nowHour = twoDigit(nowTime.getHours());
     let nowMin = twoDigit(nowTime.getMinutes());
